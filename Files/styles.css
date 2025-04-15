@@ -20,7 +20,10 @@ main {
 
 header {
     background-color: rgba(255, 255, 0, 0.591);
-    padding: 2rem 0;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 form > *,form {
@@ -193,7 +196,7 @@ form,#blurBg,#todayData,#otherData,.anotherDay {
     flex-direction: column;
 }
 
-header,input[type="text"],#weatherDataTitle,#todayData,.anotherDay,#invalidInput {
+input[type="text"],#weatherDataTitle,#todayData,.anotherDay,#invalidInput {
     text-align: center;
 }
 
