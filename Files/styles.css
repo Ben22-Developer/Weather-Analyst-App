@@ -8,12 +8,10 @@
 body {
     background-color: rgb(8, 58, 100);
     color:white;
-    overflow-y: hidden;
 }
 
 main {
     height: 100vh;
-    overflow-y: auto;
     max-width: 1440px;
     margin: auto;
     display: grid;
