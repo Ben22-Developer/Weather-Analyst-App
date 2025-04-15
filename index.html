@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Climatic Craft Application is designed for helping it's users to find not obky the weather arounds them but also get the statics about their specified region.">
+    <link rel="icon" href="./Files/pageIcon.jpg" type="jpg">
+    <title>CLIMATIC | CRAFT | APP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./Files/styles.css">
+    <script defer src="./Files/DOMLogic.js" type="module"></script>
+    <script defer src="./Files/appLogic.js" type="module"></script>
+</head>
+<body>
+    <main>
+        <header>
+            <h1> Weather Analyst</h1>
+        </header>
+        <section>
+            <form>
+                <label for="locationInput">Enter a location (city/country): </label>
+                <div id="searchingItems">
+                    <input type="text" placeholder="Search.." name="search" id="locationInput">
+                    <button type="submit" id="searchBtn"><i class="fa fa-search"></i></button>
+                </div>
+              </form>
+        </section>
+        <section id="weatherData">
+        </section>
+        <section id="loader">
+            <div id="outerLoaderDiv"></div>
+        </section>
+        <section id="invalidInput">
+            <h3></h3>
+        </section>
+        <footer>
+             <h3>
+                Powered by <a href="https://www.visualcrossing.com/" target="_blank">Visual Crossing</a>
+            </h3>
+        </footer>
+    </main>
+</body>
+</html>
